@@ -1,1 +1,1 @@
-Live Covid-19 Tracker using react.js
+Live Covid-19 Tracker 
