@@ -1,0 +1,72 @@
+section{
+  background-color: #14213d;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+h1{
+  color: crimson;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+}
+  
+h2{
+  color: coral;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size: 45px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex ;
+  flex-wrap: wrap;
+  color: aliceblue;
+ /* text-justify: distribute ;*/
+}
+
+.card__main{
+  height: 300px;
+  width: 600px;
+  margin: 50px;
+  align-items: center;
+  background-color: #0077b6;
+  box-shadow: 10px 5px 5px black;
+}
+
+
+.card__name{
+  font-size: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.card__name span{
+  font-size: 30px;
+}
+
+.card__total{
+  font-size: 50px;
+  font-weight:bold;
+  text-align: center;
+  margin: 100px auto;
+  text-shadow: 1px 1px 2px white, 0 0 1em black, 0 0 0.5em black;
+  
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
